@@ -1,0 +1,146 @@
+/* standard elements */
+html {
+  background-color: whitesmoke;
+  margin-left: 0em;
+  margin-right: 0em;
+  font-family: Didot, serif;
+  font-size: 100%;
+}
+
+h1 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+h2 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+h3 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+h4{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;}
+  h5 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  }
+footer {
+  margin-top: 4rem;
+  border-top: slategrey;
+  width: 100%; /* Make the footer span the full width */
+  font-size: 0.8rem;
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Center the content horizontally */
+  background-color: #00539b;
+  width: 100%; 
+  color: whitesmoke;
+}
+
+cite {
+  margin-left: 1em;
+  font-size: 90%;
+  font-weight: italic;
+}
+
+.image {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+section,
+p {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  text-align: center;
+  font-size: 120%;
+}
+
+nav {
+  background-color: #00539b;
+  width: 100%; 
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding: 0.5em 0; 
+}
+
+nav ul li:hover {
+  background-color: #8a0039;
+}
+
+nav li {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: whitesmoke;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  
+}
+
+nav li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:visited {
+ 
+  color: #f4811f;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  display: inline-block;
+  margin:auto 
+}
+
